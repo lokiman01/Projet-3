@@ -342,7 +342,7 @@ h2 {
   margin-left: 2rem;
 }
 
-@media all and (min-width: 900px) {
+@media all and (min-width: 800px) {
   #section1box {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -350,46 +350,10 @@ h2 {
   }
 }
 
-@media all and (min-width: 1200px) {
-  main {
-    background: -webkit-gradient(linear, left bottom, left top, from(#F175DB), to(#A75DDC));
-    background: linear-gradient(0deg, #F175DB, #A75DDC);
-    background-size: 400% 400%;
-    -webkit-animation: backanim 15s ease infinite;
-    animation: backanim 15s ease infinite;
-  }
-  @-webkit-keyframes backanim {
-    0% {
-      background-position: 51% 0%;
-    }
-    50% {
-      background-position: 50% 100%;
-    }
-    100% {
-      background-position: 51% 0%;
-    }
-  }
-  @keyframes backanim {
-    0% {
-      background-position: 51% 0%;
-    }
-    50% {
-      background-position: 50% 100%;
-    }
-    100% {
-      background-position: 51% 0%;
-    }
-  }
-  .titlebox {
-    text-decoration: none;
-    text-align: center;
-    margin-bottom: 0px;
-    background: -webkit-gradient(linear, left bottom, left top, from(#F175DB), to(#A75DDC));
-    background: linear-gradient(0deg, #F175DB, #A75DDC);
-    background-size: 400% 400%;
-    -webkit-animation: backanim 15s ease infinite;
-    animation: backanim 15s ease infinite;
-  }
+.titlebox {
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 0px;
 }
 
 /*SECTION 2*/

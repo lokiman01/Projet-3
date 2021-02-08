@@ -272,51 +272,18 @@ h2{
   margin-left: 2rem;
 }
 
-@media all and (min-width: 900px) {
+@media all and (min-width: 800px) {
   #section1box{
   display: flex;
 }
 }
-@media all and (min-width: 1200px) {
-  main{
-    background: linear-gradient(0deg, #F175DB, #A75DDC);
-    background-size: 400% 400%;
-    -webkit-animation: backanim 15s ease infinite;
-    -moz-animation: backanim 15s ease infinite;
-    animation: backanim 15s ease infinite;
-  }
-  
-  @-webkit-keyframes backanim {
-      0%{background-position:51% 0%}
-      50%{background-position:50% 100%}
-      100%{background-position:51% 0%}
-  }
-  @-moz-keyframes backanim {
-      0%{background-position:51% 0%}
-      50%{background-position:50% 100%}
-      100%{background-position:51% 0%}
-  }
-  @keyframes backanim {
-      0%{background-position:51% 0%}
-      50%{background-position:50% 100%}
-      100%{background-position:51% 0%}
-  }
-  
+
   .titlebox{
     text-decoration: none;
     text-align: center;
     margin-bottom: 0px;
-    background: linear-gradient(0deg, #F175DB, #A75DDC);
-    background-size: 400% 400%;
-    -webkit-animation: backanim 15s ease infinite;
-    -moz-animation: backanim 15s ease infinite;
-    animation: backanim 15s ease infinite;
   }
   
-
-}
-
-
 
 /*SECTION 2*/
 #section2{
