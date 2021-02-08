@@ -9,7 +9,7 @@ a {
 }
 
 .boxmenu {
-  width: 375px;
+  width: 350px;
   margin: auto;
   background: #f7f7f7;
   padding-bottom: 20px;
@@ -163,6 +163,10 @@ img {
           animation: spin 1s;
 }
 
+.platbox:hover .menusubtitle {
+  width: 220px;
+}
+
 @-webkit-keyframes spin {
   from {
     -webkit-transform: rotate(0deg);
@@ -257,7 +261,6 @@ img {
 .menusubtitle {
   font-weight: 100;
   font-size: 0.9rem;
-  width: 260px;
   height: 20px;
   overflow: hidden;
   text-overflow: ellipsis;
