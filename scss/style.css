@@ -1,5 +1,5 @@
 #loaderctnr {
-  background-color: rgba(128, 128, 128, 0.3);
+  background-color: rgba(72, 28, 75, 0.5);
   position: fixed;
   top: 0;
   left: 0;
@@ -20,7 +20,7 @@
 }
 
 .loader {
-  color: #ffffff;
+  color: #D46BDB;
   font-size: 90px;
   text-indent: -9999em;
   overflow: hidden;
@@ -145,11 +145,6 @@
   }
 }
 
-h1 {
-  text-align: center;
-  background-color: #F7F7F7;
-}
-
 .header {
   width: 100%;
 }
@@ -221,6 +216,14 @@ h2 {
   color: black;
   font-size: 3rem;
   font-family: "Shrikhand", sans-serif;
+  text-decoration: none;
+}
+
+.titlebox {
+  text-decoration: none;
+  text-align: center;
+  background-color: white;
+  margin-bottom: 0px;
 }
 
 .headerh2 {
@@ -275,6 +278,11 @@ h2 {
 }
 
 /*SECTION 1*/
+#section1box {
+  max-width: 1000px;
+  margin: auto;
+}
+
 .titleoperation {
   margin-left: 1rem;
   font-size: 1.5rem;
@@ -334,9 +342,21 @@ h2 {
   margin-left: 2rem;
 }
 
+@media all and (min-width: 900px) {
+  #section1box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .section2 {
+    max-width: 901px;
+  }
+}
+
 /*SECTION 2*/
 #section2 {
   background-color: #F7F7F7;
+  display: inline;
 }
 
 #section2box {
@@ -354,12 +374,16 @@ h2 {
 }
 
 .titlerestaurants {
-  margin-left: 1rem;
+  margin-left: 0px;
+  margin-bottom: 0px;
   font-size: 1.5rem;
   font-weight: 900;
   padding-top: 40px;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
   font-weight: 900;
   font-family: "Roboto", sans-serif;
+  background-color: #F7F7F7;
 }
 
 .picture_box_1 {
@@ -368,7 +392,7 @@ h2 {
   border-radius: 1rem;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
-  width: 400px;
+  width: 350px;
   min-width: 240px;
   cursor: pointer;
   -webkit-transform: scale(1);
@@ -452,7 +476,7 @@ h2 {
 }
 
 /*SECTION 2 Media*/
-@media all and (max-width: 1920px) {
+@media all and (max-width: 2560px) {
   .picture1 {
     width: 100%;
   }
