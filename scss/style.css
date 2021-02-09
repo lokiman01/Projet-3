@@ -1,3 +1,11 @@
+h2 {
+  font-size: 1rem;
+}
+
+.body {
+  font-family: "Roboto", sans-serif;
+}
+
 #loaderctnr {
   background-color: rgba(128, 128, 128, 0.5);
   position: fixed;
@@ -149,10 +157,6 @@
   width: 100%;
 }
 
-.body {
-  font-family: "Roboto", sans-serif;
-}
-
 .headerbox {
   width: 100%;
   -webkit-box-pack: center;
@@ -160,6 +164,22 @@
           justify-content: center;
   background-color: #F7F7F7;
   padding-bottom: 4rem;
+}
+
+.titlebox {
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 0px;
+  background-color: white;
+}
+
+.title {
+  width: 100%;
+  text-decoration: none;
+  color: black;
+  font-size: 3rem;
+  font-family: "Shrikhand", sans-serif;
+  text-decoration: none;
 }
 
 .headband {
@@ -178,15 +198,9 @@
   opacity: 0.8;
 }
 
-.Reserve {
-  text-align: center;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-size: 1.6rem;
-  padding: 3rem 2rem 0rem 2rem;
-  font-family: "Roboto", sans-serif;
-  font-weight: 600;
-  background-color: #F7F7F7;
+.inconparis {
+  margin-right: 1rem;
+  font-size: 1.2rem;
 }
 
 .headtxt {
@@ -197,33 +211,15 @@
   cursor: pointer;
 }
 
-.inconparis {
-  margin-right: 1rem;
-  font-size: 1.2rem;
-}
-
-h2 {
-  font-size: 1rem;
-}
-
-.titlemenu {
-  background: #7A7A7B;
-}
-
-.title {
-  width: 100%;
-  text-decoration: none;
-  color: black;
-  font-size: 3rem;
-  font-family: "Shrikhand", sans-serif;
-  text-decoration: none;
-}
-
-.titlebox {
-  text-decoration: none;
+.Reserve {
   text-align: center;
+  margin-top: 0px;
   margin-bottom: 0px;
-  background-color: white;
+  font-size: 1.6rem;
+  padding: 3rem 2rem 0rem 2rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  background-color: #F7F7F7;
 }
 
 .headerh2 {
@@ -272,17 +268,7 @@ h2 {
           transition-duration: 0.5s;
 }
 
-.buttonclicinputtxt {
-  margin: 1rem;
-  font-size: 1rem;
-}
-
-/*SECTION 1*/
-#section1box {
-  max-width: 1000px;
-  margin: auto;
-}
-
+/*Section_1*/
 .titleoperation {
   margin-left: 1rem;
   font-size: 1.5rem;
@@ -290,6 +276,11 @@ h2 {
   padding-top: 10px;
   font-weight: 900;
   font-family: "Roboto", sans-serif;
+}
+
+#section1box {
+  max-width: 1000px;
+  margin: auto;
 }
 
 .buttonbox2 {
@@ -328,7 +319,7 @@ h2 {
   margin-left: -26px;
 }
 
-.buttonbox2 .boxfatxt {
+.boxfatxt {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -350,28 +341,10 @@ h2 {
   }
 }
 
-.titlebox {
-  text-decoration: none;
-  text-align: center;
-  margin-bottom: 0px;
-}
-
 /*SECTION 2*/
 #section2 {
   background-color: #F7F7F7;
   display: inline;
-}
-
-#section2box {
-  background-color: #F7F7F7;
-  padding-bottom: 1rem;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
 .titlerestaurants {
@@ -385,6 +358,18 @@ h2 {
   font-weight: 900;
   font-family: "Roboto", sans-serif;
   background-color: #F7F7F7;
+}
+
+#section2box {
+  background-color: #F7F7F7;
+  padding-bottom: 1rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .picture_box_1 {
