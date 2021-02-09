@@ -461,12 +461,23 @@ h2 {
   z-index: 6;
   font-size: 1.7rem;
   cursor: pointer;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.hearticonpink {
+  color: white;
+  position: absolute;
+  right: 2rem;
+  z-index: 6;
+  font-size: 1.7rem;
+  cursor: pointer;
   -webkit-transform: scale(1);
           transform: scale(1);
 }
 
-.hearticon:hover {
-  color: palevioletred;
+.hearticonpink:hover {
+  color: #ECB8EE;
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
 }
