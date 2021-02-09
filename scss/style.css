@@ -451,38 +451,42 @@ h2 {
 
 .titlecard {
   margin-top: -5px;
+  margin-bottom: 5px;
   margin-left: 0.5rem;
   padding-top: 10px;
 }
 
 .hearticon {
   position: absolute;
-  right: 2rem;
+  right: 30px;
+  bottom: 65px;
   z-index: 6;
   font-size: 1.7rem;
   cursor: pointer;
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.17);
+          transform: scale(1.17);
 }
 
 .hearticonpink {
   color: white;
   position: absolute;
-  right: 2rem;
+  right: 30px;
+  bottom: 65px;
   z-index: 6;
   font-size: 1.7rem;
   cursor: pointer;
-  -webkit-transform: scale(1);
-          transform: scale(1);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .hearticonpink:hover {
   color: #ECB8EE;
-  -webkit-transition-duration: 1s;
-          transition-duration: 1s;
+  -webkit-transition-duration: 0.7s;
+          transition-duration: 0.7s;
 }
 
 .subtxt {
+  margin-top: 0px;
   font-weight: 100;
   margin-left: 0.5rem;
 }

@@ -367,31 +367,35 @@ h2{
   margin-bottom: 2rem;
 }
 .titlecard{
+
   margin-top: -5px;
+  margin-bottom: 5px;
   margin-left: 0.5rem;
   padding-top: 10px;
 }
 
 .hearticon{ 
   position: absolute;
-  right: 2rem;
+  right: 30px;
+  bottom: 65px;
   z-index: 6;
   font-size: 1.7rem;
   cursor: pointer;
-  transform: scale(1.20);
+  transform: scale(1.17);
   
 }
 .hearticonpink{ 
   color: white;
   position: absolute;
-  right: 2rem;
+  right: 30px;
+  bottom: 65px;
   z-index: 6;
   font-size: 1.7rem;
   cursor: pointer;
-  transform: scale(1);
+  transform: scale(1.05);
   &:hover{
     color: #ECB8EE;
-    transition-duration: 1s;
+    transition-duration: 0.7s;
   }
 }
 
@@ -400,6 +404,7 @@ h2{
 
 .subtxt
 {
+  margin-top: 0px;
   font-weight: 100;
   margin-left: 0.5rem;
 }
