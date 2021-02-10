@@ -387,9 +387,26 @@ cursor: pointer;
   cursor: pointer;
   transform: scale(1.05);
   &:hover{
+    
+    animation: hearth 2s;
     color: #ECB8EE;
-    transition-duration: 0.7s;
+    transition-delay: 0.2s;
   }
+
+}
+@keyframes hearth {
+  10%{
+    transform: scale(0) ;
+
+  }
+  30%{
+    transform: scale(0);
+  }
+  40%{
+    transform: scale(1);
+
+  }
+
 }
 
 .subtxt

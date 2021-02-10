@@ -468,9 +468,41 @@ h2 {
 }
 
 .hearticonpink:hover {
+  -webkit-animation: hearth 2s;
+          animation: hearth 2s;
   color: #ECB8EE;
-  -webkit-transition-duration: 0.7s;
-          transition-duration: 0.7s;
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+
+@-webkit-keyframes hearth {
+  10% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  30% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes hearth {
+  10% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  30% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  40% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
 }
 
 .subtxt {
