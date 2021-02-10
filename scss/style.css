@@ -6,6 +6,7 @@ h2 {
   font-family: "Roboto", sans-serif;
 }
 
+/*Loader*/
 #loaderctnr {
   background-color: rgba(128, 128, 128, 0.5);
   position: fixed;
@@ -153,6 +154,7 @@ h2 {
   }
 }
 
+/*Loader END*/
 .header {
   width: 100%;
 }
@@ -268,7 +270,7 @@ h2 {
           transition-duration: 0.5s;
 }
 
-/*Section_1*/
+/*SECTION 1*/
 .titleoperation {
   margin-left: 1rem;
   font-size: 1.5rem;
@@ -333,6 +335,7 @@ h2 {
   margin-left: 2rem;
 }
 
+/*SECTION 1 Media*/
 @media all and (min-width: 800px) {
   #section1box {
     display: -webkit-box;
@@ -448,8 +451,8 @@ h2 {
   z-index: 6;
   font-size: 1.7rem;
   cursor: pointer;
-  -webkit-transform: scale(1.17);
-          transform: scale(1.17);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
 .hearticonpink {
@@ -513,7 +516,7 @@ h2 {
   }
 }
 
-/*Footer*/
+/*FOOTER*/
 footer {
   background: #363636;
   color: white;
@@ -537,10 +540,6 @@ footer {
 
 .footericon {
   padding-right: 1rem;
-}
-
-.cardtitle {
-  padding-left: 1rem;
 }
 
 .footerlink {

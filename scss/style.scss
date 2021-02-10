@@ -5,6 +5,9 @@ h2{
 .body{
   font-family: "Roboto", sans-serif;
 }
+
+/*Loader*/
+
 #loaderctnr{
   background-color: rgba($color: grey, $alpha: 0.5);
   position: fixed;
@@ -116,6 +119,8 @@ h2{
 
 }
 
+/*Loader END*/
+
 .header {
   width: 100%;
 }
@@ -210,7 +215,7 @@ cursor: pointer;
   }
 }
 
-/*Section_1*/
+/*SECTION 1*/
 
 .titleoperation {
   margin-left: 1rem;
@@ -265,7 +270,7 @@ cursor: pointer;
 .buttontxt1{
   margin-left: 2rem;
 }
-
+ /*SECTION 1 Media*/
 @media all and (min-width: 800px) {
   #section1box{
   display: flex;
@@ -368,7 +373,7 @@ cursor: pointer;
   z-index: 6;
   font-size: 1.7rem;
   cursor: pointer;
-  transform: scale(1.17);
+  transform: scale(1.2);
   
 }
 
@@ -395,7 +400,8 @@ cursor: pointer;
 }
 
  /*SECTION 2 Media*/
- @media all and (max-width: 2560px) {
+
+@media all and (max-width: 2560px) {
   .picture1{
     width: 100%;
   }
@@ -429,7 +435,7 @@ cursor: pointer;
   }
 }
 
-/*Footer*/
+/*FOOTER*/
 
 footer {
   background: #363636;
@@ -439,26 +445,24 @@ footer {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
 }
-.footertitle {
 
+.footertitle {
   text-decoration: none;
   color: white;
   font-size: 1.5rem;
   font-family: "Shrikhand", sans-serif;
   margin-left: 1rem;
-
 }
-.footertxt{
+
+.footertxt {
   margin-left: 1rem;
-
 }
-.footericon{
+
+.footericon {
   padding-right: 1rem;
 }
-.cardtitle{
-  padding-left: 1rem;
-}
-.footerlink{
+
+.footerlink {
   text-decoration: none;
   color:white
 }

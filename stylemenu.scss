@@ -147,9 +147,42 @@ margin: 30px auto;
     from { 
         transform: rotate(0deg); 
     } to { 
-        transform: rotate(-720deg); 
+        transform: rotate(360deg); 
     }
 }
+.platbox1 {
+  animation: opacityanim 1.2s;  
+}
+.platbox2 {
+    animation: opacityanim 1.4s;  
+}
+.platbox3 {
+    animation: opacityanim 1.6s;  
+}
+.platbox4 {
+    animation: opacityanim 1.8s;  
+}
+@keyframes opacityanim {
+    0% {
+      opacity: 0;
+      margin-top: 5px;
+    }
+    15% {
+      opacity: 0;
+    }
+    25% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0;
+    }
+    75% {
+      opacity: 0.4;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 
 .platcontent {
   display: flex;
