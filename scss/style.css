@@ -333,6 +333,7 @@ h2 {
 
 .buttontxt1 {
   margin-left: 2rem;
+  font-family: "Roboto", sans-serif;
 }
 
 /*SECTION 1 Media*/
@@ -471,18 +472,18 @@ h2 {
   -webkit-animation: hearth 2s;
           animation: hearth 2s;
   color: #FF79DA;
-  -webkit-transition-delay: 0.2s;
-          transition-delay: 0.2s;
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
 }
 
 @-webkit-keyframes hearth {
   10% {
-    -webkit-transform: scale(0);
-            transform: scale(0);
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
   }
   30% {
-    -webkit-transform: scale(0);
-            transform: scale(0);
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
   }
   40% {
     -webkit-transform: scale(1);
@@ -492,12 +493,12 @@ h2 {
 
 @keyframes hearth {
   10% {
-    -webkit-transform: scale(0);
-            transform: scale(0);
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
   }
   30% {
-    -webkit-transform: scale(0);
-            transform: scale(0);
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
   }
   40% {
     -webkit-transform: scale(1);
@@ -512,7 +513,7 @@ h2 {
 }
 
 /*SECTION 2 Media*/
-@media all and (max-width: 2560px) {
+@media all and (max-width: 3540px) {
   .picture1 {
     width: 100%;
   }

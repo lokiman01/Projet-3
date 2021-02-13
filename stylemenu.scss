@@ -1,5 +1,6 @@
  /* MENU---------------------------------------------------- */
 
+ 
 /* Header */
 h2{
     text-decoration: none;
@@ -73,7 +74,7 @@ img {
     position: relative;
 }
 .menutitle{
-    text-align: center;
+    padding-left: 20px;
     margin: 0px 0px 0px 0px;
     background-color: #F7F7F7;
     border-top-left-radius: 15px;
@@ -93,7 +94,46 @@ font-size: 1.7rem;
 font-family: "Shrikhand";
 margin: 30px auto;
 }
+.hearticon { 
+  position: absolute;
+  right: 20px; 
+  z-index: 7;
+  font-size: 1.7rem;
+  cursor: pointer;
+  transform: scale(1.2);
+  
+}
 
+.hearticonpink { 
+  color: #F7F7F7;
+  position: absolute; 
+  right: 20px; 
+  z-index: 8;
+  font-size: 1.7rem;
+  cursor: pointer;
+  transform: scale(1.05);
+
+  &:hover{
+    animation: hearth 2s;
+    color: #FF79DA;
+    transition-delay: 0.2s;
+  }
+
+}
+@keyframes hearth {
+10%{
+  transform: scale(0.5) ;
+
+}
+30%{
+  transform: scale(0.5);
+}
+40%{
+  transform: scale(1);
+
+}
+
+}
 .platprice{
     margin-top: 14px;
     margin-right: 2px;
@@ -309,3 +349,52 @@ footer {
 }
 
 
+@media all and (max-width: 1200px) {
+  .boxmenu{
+    width: 100%;
+  }
+  img{
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .boxmenu {
+    width: 1200px;
+  }
+  .platgroupctrn {
+    display: flex;
+  }
+  .platbox {
+    width: 340px;
+  
+  }
+  img{
+    max-width: 100%;
+  }
+  .menutitle {
+    text-align: center;
+  
+  }
+  .hearticon { 
+    position: absolute; 
+    right: 420px;
+    
+  }
+ 
+  .hearticonpink { 
+    position: absolute; 
+    right: 420px;
+  
+  }
+  .buttonorderbox {
+    width: 1200px;
+  }
+  .buttonorderboxctrn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

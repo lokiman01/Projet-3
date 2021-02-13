@@ -86,7 +86,7 @@ img {
 }
 
 .menutitle {
-  text-align: center;
+  padding-left: 20px;
   margin: 0px 0px 0px 0px;
   background-color: #F7F7F7;
   border-top-left-radius: 15px;
@@ -104,6 +104,65 @@ img {
   font-size: 1.7rem;
   font-family: "Shrikhand";
   margin: 30px auto;
+}
+
+.hearticon {
+  position: absolute;
+  right: 20px;
+  z-index: 7;
+  font-size: 1.7rem;
+  cursor: pointer;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.hearticonpink {
+  color: #F7F7F7;
+  position: absolute;
+  right: 20px;
+  z-index: 8;
+  font-size: 1.7rem;
+  cursor: pointer;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.hearticonpink:hover {
+  -webkit-animation: hearth 2s;
+          animation: hearth 2s;
+  color: #FF79DA;
+  -webkit-transition-delay: 0.2s;
+          transition-delay: 0.2s;
+}
+
+@-webkit-keyframes hearth {
+  10% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  30% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  40% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes hearth {
+  10% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  30% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  40% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
 }
 
 .platprice {
@@ -403,5 +462,60 @@ footer {
 .footerlink {
   text-decoration: none;
   color: white;
+}
+
+@media all and (max-width: 1200px) {
+  .boxmenu {
+    width: 100%;
+  }
+  img {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    max-width: 100%;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .boxmenu {
+    width: 1200px;
+  }
+  .platgroupctrn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .platbox {
+    width: 340px;
+  }
+  img {
+    max-width: 100%;
+  }
+  .menutitle {
+    text-align: center;
+  }
+  .hearticon {
+    position: absolute;
+    right: 420px;
+  }
+  .hearticonpink {
+    position: absolute;
+    right: 420px;
+  }
+  .buttonorderbox {
+    width: 1200px;
+  }
+  .buttonorderboxctrn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 /*# sourceMappingURL=stylemenu.css.map */
