@@ -314,12 +314,8 @@ cursor: pointer;
   font-family: "Roboto", sans-serif;
   width: 350px;
   min-width: 240px;
+  z-index: 1;
   cursor: pointer;
-  transform: scale(1);
-  &:hover{
-    transform: scale(1.05);
-    transition-duration: 0.5s;
-  }
 }
 
 .new {
@@ -358,6 +354,7 @@ cursor: pointer;
   box-shadow: 0 0 16px #0000002e;
   color: black;
   margin-bottom: 2rem;
+
 }
 
 .titlecard {
@@ -371,7 +368,7 @@ cursor: pointer;
   position: absolute;
   right: 30px;
   bottom: 65px;
-  z-index: 6;
+  z-index: 2;
   font-size: 1.7rem;
   cursor: pointer;
   transform: scale(1.2);
@@ -383,7 +380,7 @@ cursor: pointer;
   position: absolute;
   right: 30px;
   bottom: 65px;
-  z-index: 6;
+  z-index: 3;
   font-size: 1.7rem;
   cursor: pointer;
   transform: scale(1.05);
@@ -392,9 +389,11 @@ cursor: pointer;
     animation: hearth 2s;
     color: #FF79DA;
     transition-delay: 0.1s;
+   
   }
 
 }
+
 @keyframes hearth {
   10%{
     transform: scale(0.5) ;

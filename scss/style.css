@@ -384,16 +384,8 @@ h2 {
   font-family: "Roboto", sans-serif;
   width: 350px;
   min-width: 240px;
+  z-index: 1;
   cursor: pointer;
-  -webkit-transform: scale(1);
-          transform: scale(1);
-}
-
-.picture_box_1:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
 }
 
 .new {
@@ -449,7 +441,7 @@ h2 {
   position: absolute;
   right: 30px;
   bottom: 65px;
-  z-index: 6;
+  z-index: 2;
   font-size: 1.7rem;
   cursor: pointer;
   -webkit-transform: scale(1.2);
@@ -461,7 +453,7 @@ h2 {
   position: absolute;
   right: 30px;
   bottom: 65px;
-  z-index: 6;
+  z-index: 3;
   font-size: 1.7rem;
   cursor: pointer;
   -webkit-transform: scale(1.05);
