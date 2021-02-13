@@ -468,6 +468,10 @@ h2 {
           transition-delay: 0.1s;
 }
 
+.click-heart:checked {
+  color: #FF79DA;
+}
+
 @-webkit-keyframes hearth {
   10% {
     -webkit-transform: scale(0.5);
